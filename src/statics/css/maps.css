@@ -1,0 +1,14 @@
+*{
+  font-family: 'Play', sans-serif;
+  font-size: 12px;
+}
+
+
+ #issMap {
+  height: 40em;
+  width: 60em;
+
+} 
+#nodes {
+  color: #26597b;; 
+ }
