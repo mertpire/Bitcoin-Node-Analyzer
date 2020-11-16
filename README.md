@@ -3,22 +3,22 @@
 This project shows you bitcoin users that you uploaded as a JSON file.
 
 ## Installation
-#### 1. Get JSON files:file_folder:
+#### 1. Get JSON 
 You can create your JSON file or use [java bitcoin scanner.](https://github.com/doodot/JBS)
 
 
-##### 2. Clone the repository:dvd:
+##### 2. Clone the 
 
 ``` 
 git clone https://github.com/mertpiree/Bitcoin-Node-Scanner.git
 ```
 
 
-##### 3. Dependencies:pushpin:
+##### 3. Dependencies
 In the project directory, install [django.](https://docs.djangoproject.com/en/3.1/howto/windows/)
 
 
-##### 4. Firebase config:lock:
+##### 4. Firebase config
 After create [firebase web](https://firebase.google.com/docs/web/setup?hl=en) application,configure your info in JavaScript code.
 
 ```JavaScript
@@ -34,7 +34,7 @@ const firebaseConfig = {
 ```
 
 
-##### 5. Start project:rocket:
+##### 5. Start project
 ``` 
 python .\manage.py runserver
 ```
