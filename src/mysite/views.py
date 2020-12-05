@@ -15,7 +15,6 @@ def external(request):
 
 
          inp = request.POST.get('param')
-        #if request.method == 'get':
          uploaded_json = request.FILES['json']
          fs = FileSystemStorage()
          saved_file = fs.save(uploaded_json.name,uploaded_json)
@@ -25,9 +24,7 @@ def external(request):
          out= run([sys.executable,'parser.py',str(file_url)],shell=False,stdout=PIPE)
          return render(request,'templates/nodes.html',{'data':out.stdout})
 
-    #else:
-     #   uploaded_json = False
-
+   
   
     
 
