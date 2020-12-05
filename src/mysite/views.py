@@ -5,7 +5,6 @@ from subprocess import run,PIPE
 import sys
 
 import json
-#from mysite.main import hex2ipv4
 
 def home(request):
    
